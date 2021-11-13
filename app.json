@@ -17,12 +17,22 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.BlueTreeDigital.adopt",
+      "config": {
+        "googleMapsApiKey": "AIzaSyDPXMfRnR86R6OwIvKDHjKkGQQX_cumS20"
+      },
       "supportsTablet": true
     },
     "android": {
+      "package": "com.BlueTreeDigital.adopt",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDcgMJ6VnLis3m4V9FTpSXXFH3J7v68jNY"
+        }
       }
     },
     "web": {
